@@ -1,0 +1,168 @@
+:root{
+    --Color-letra: #f2f2f2;
+    --color-elemt-1: #e38826;
+    --color-elemt-2: #006970;
+    --color-elemt-3: #004241;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    background-color: rgb(255, 255, 255);
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    width: 100%;
+    max-width:800px;
+    max-height: 600px;
+    margin: 50px auto;
+    display: flex;
+    
+
+}
+.element{
+ color: rgb(197, 197, 219);
+
+} 
+
+.elemt-1{
+background-color: #e28525;
+
+}
+.elemt-2{
+background-color: #036771;
+
+}
+
+.elemt-3{
+background: #00403f;
+
+}
+.contenedor .element{
+    background-color: var(.elemt-1);
+    padding: 10px 20px 0px 30px;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+ .sedans{
+  font-size: 30px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  display: flex;
+  margin-top: 30px;
+
+ }
+ .p1{
+     margin-top: 20px;
+     font-family: 'Lexend Deca', sans-serif;
+     color: #f2f2f2;
+    }
+.but{
+        margin-top: 50px;
+ }
+ .suvs{
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: #f2f2f2;
+    display: flex;
+    margin-top: 30px;
+  
+ }
+ .p2{
+    margin-top: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #f2f2f2;
+   }
+   
+.but2{
+    margin-top: 50px;
+}
+
+.lexury{
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: #f2f2f2;
+    display: flex;
+    margin-top: 30px;
+  
+ }
+ .p3{
+    margin-top: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #f2f2f2;
+   }
+.but3{
+    margin-top:50px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    .contenedor button{
+    width: 150px;
+    height: 50px;
+    border-radius:  50px;
+    border: 1px solid rgb(245, 234, 234);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 350ms all;
+ }
+ .contenedor button:hover{
+    background-color: transparent;
+    
+ }
+.but{
+  margin-top: 50px;
+}
